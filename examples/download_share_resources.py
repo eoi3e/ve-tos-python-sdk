@@ -2,8 +2,8 @@ import os.path
 
 import tos
 
-ak = "AKLTNTMxYzE5NWFkYWM3YzBmYzA2ZWI2OGQ0MjRmMTVmYzE"
-sk = "TUdKbVpUUmxOVFZsWm1Zd05EaGlNekk1TWpVM1kyTTFOekpoWXpnME5XSQ=="
+ak = "AKLTZmVmODY5ZGZhMGQzNDljMGIxYTJiZDJlYzE5OGZiMTc"
+sk = "WW1KbFpUWTBZV1ZtWWpjMk5Ea3hOV0ZtTkdOaU5USTROV1E1T1dJNE5EUQ=="
 endpoint = "tos-cn-beijing.volces.com:80"
 region = "cn-beijing"
 
@@ -21,8 +21,14 @@ for x in resp.object_list:
 
 # 下载文件
 
-# bytedance catower平台接入文档（toutiao 版）
-key = "API-catower.bytedance-toutiao.md"
+# # bytedance catower平台接入文档（toutiao 版）
+# key = "API-catower.bytedance-toutiao.md"
+
+# # 抖音旧版本APK，测试用
+# key = "aweme_update_v20.8.0_bate.apk"
+
+# 头条旧版本APK，测试用
+key = "NewsArticle_update_v8.2.5_beta.apk"
 
 save_path = os.path.join('output/tos', key)
 resp = client.get_object(Bucket=bucket_name, Key=key)
