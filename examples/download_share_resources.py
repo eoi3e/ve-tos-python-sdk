@@ -27,8 +27,11 @@ for x in resp.object_list:
 # # 抖音旧版本APK，测试用
 # key = "aweme_update_v20.8.0_bate.apk"
 
-# 头条旧版本APK，测试用
-key = "NewsArticle_update_v8.2.5_beta.apk"
+# # 头条旧版本APK，测试用
+# key = "NewsArticle_update_v8.2.5_beta.apk"
+
+# 备份速查表
+key = "速查表-20220720.md"
 
 save_path = os.path.join('output/tos', key)
 resp = client.get_object(Bucket=bucket_name, Key=key)
