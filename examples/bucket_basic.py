@@ -1,7 +1,7 @@
 import tos
 
-ak = "AKLTNTMxYzE5NWFkYWM3YzBmYzA2ZWI2OGQ0MjRmMTVmYzE"
-sk = "TUdKbVpUUmxOVFZsWm1Zd05EaGlNekk1TWpVM1kyTTFOekpoWXpnME5XSQ=="
+ak = ""
+sk = ""
 endpoint = "tos-cn-beijing.volces.com:80"
 region = "cn-beijing"
 bucket_name = "test-toutiao-tos-lichen-beijing"

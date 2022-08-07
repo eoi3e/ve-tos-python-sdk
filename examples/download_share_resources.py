@@ -2,8 +2,8 @@ import os.path
 
 import tos
 
-ak = "AKLTZmVmODY5ZGZhMGQzNDljMGIxYTJiZDJlYzE5OGZiMTc"
-sk = "WW1KbFpUWTBZV1ZtWWpjMk5Ea3hOV0ZtTkdOaU5USTROV1E1T1dJNE5EUQ=="
+ak = ""
+sk = "=="
 endpoint = "tos-cn-beijing.volces.com:80"
 region = "cn-beijing"
 
